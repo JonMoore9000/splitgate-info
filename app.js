@@ -8,7 +8,6 @@ $(document).ready(function() {
       headers: {
         'TRN-Api-Key': '7eb1cf3e-241f-4f6f-87a4-00e704d455e3',
         "Content-Type": "application/json",
-        "Access-Control-Allow-Headers": "https://jonmoore9000.github.io/splitgate-info/",
         'Access-Control-Allow-Origin': 'https://tracker.gg'
       },
       type: "GET",
