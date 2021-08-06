@@ -6,7 +6,8 @@ $(document).ready(function() {
       url: base,
       //dataType: 'jsonp',
       headers: {
-        'TRN-Api-Key': '7eb1cf3e-241f-4f6f-87a4-00e704d455e3'
+        'TRN-Api-Key': '7eb1cf3e-241f-4f6f-87a4-00e704d455e3',
+        "Access-Control-Allow-Origin": "*"
       },
       type: "GET",
       success: function(result){
