@@ -8,7 +8,7 @@ $(document).ready(function() {
       headers: {
         'TRN-Api-Key': '7eb1cf3e-241f-4f6f-87a4-00e704d455e3',
         "Content-Type": "application/json",
-        'Access-Control-Allow-Origin': 'https://tracker.gg'
+        'Access-Control-Allow-Origin': 'https://jonmoore9000.github.io'
       },
       type: "GET",
       success: function(result){
